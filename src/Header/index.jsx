@@ -1,12 +1,11 @@
-import { memo } from 'react'
 
-import './header.css'
+let renderCount = 0;
 
-export const Header = memo( ({ name }) => {
-  console.log("COMPONENTE HEADER RENDERIZOU")
-
+export function Header() {
+  renderCount++;
+  
   return (
-   <h3 className="header">Bem-vindo {name}</h3>
+   <h3>renderizou {renderCount}</h3>
   )
-})
+}
 

@@ -4,24 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body, #root{
-  height: 100%;
-}
-
 body{
-  font: 14px;
+  background-color: #121212;
+  color: #FFF;
   font-family: sans-serif;
-  background-color: #EFEFEF;
-}
-
-a{
-  text-decoration: none;
-}
-
-ul{
-  list-style: none;
-}
-
-button{
-  cursor: pointer;
 }
